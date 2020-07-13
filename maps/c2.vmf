@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "194"
+	"mapversion" "202"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "194"
+	"mapversion" "202"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5880,6 +5880,82 @@ world
 	}
 	solid
 	{
+		"id" "4941"
+		side
+		{
+			"id" "1165"
+			"plane" "(-1760 -1376 416) (-1440 -1376 416) (-1440 -1440 416)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1166"
+			"plane" "(-1760 -1440 128) (-1440 -1440 128) (-1440 -1376 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1167"
+			"plane" "(-1760 -1376 416) (-1760 -1440 416) (-1760 -1440 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1168"
+			"plane" "(-1440 -1376 128) (-1440 -1440 128) (-1440 -1440 416)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1169"
+			"plane" "(-1440 -1376 416) (-1760 -1376 416) (-1760 -1376 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1170"
+			"plane" "(-1440 -1440 128) (-1760 -1440 128) (-1760 -1440 416)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 115 184"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "1200"
 		side
 		{
@@ -7264,82 +7340,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "4941"
-		side
-		{
-			"id" "1165"
-			"plane" "(-1760 -1376 416) (-1440 -1376 416) (-1440 -1440 416)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1166"
-			"plane" "(-1760 -1440 128) (-1440 -1440 128) (-1440 -1376 128)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1167"
-			"plane" "(-1760 -1376 416) (-1760 -1440 416) (-1760 -1440 128)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1168"
-			"plane" "(-1440 -1376 128) (-1440 -1440 128) (-1440 -1440 416)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1169"
-			"plane" "(-1440 -1376 416) (-1760 -1376 416) (-1760 -1376 128)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1170"
-			"plane" "(-1440 -1440 128) (-1760 -1440 128) (-1760 -1440 416)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 115 184"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "1206"
@@ -8701,24 +8701,6 @@ entity
 }
 entity
 {
-	"id" "2064"
-	"classname" "weapon_smg1"
-	"angles" "0 0 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "-170.703 -865.199 33"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
-	}
-}
-entity
-{
 	"id" "2071"
 	"classname" "item_ammo_smg1"
 	"angles" "0 0 0"
@@ -8788,25 +8770,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11268]"
-	}
-}
-entity
-{
-	"id" "2129"
-	"classname" "item_ammo_smg1_grenade"
-	"angles" "0 30 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "-140.025 -874.191 32"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 15000]"
 	}
 }
 entity
@@ -9984,14 +9947,9 @@ entity
 	"sleepstate" "2"
 	"spawnflags" "925960"
 	"squadname" "camp1"
-	"targetname" "campcitizen"
+	"targetname" "follower"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	connections
-	{
-		"OnJoinedPlayerSquad" "spawner1,Enable,,0,-1"
-		"OnJoinedPlayerSquad" "spawner2,Enable,,0,-1"
-	}
 	"origin" "-215.546 -1552.58 33"
 	editor
 	{
@@ -10338,7 +10296,8 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "2"
-	"spawnflags" "1311236"
+	"spawnflags" "262660"
+	"targetname" "follower"
 	"wakeradius" "0"
 	"wakesquad" "0"
 	"origin" "-458.784 -1011.58 32"
@@ -11109,7 +11068,7 @@ entity
 	"wakesquad" "0"
 	connections
 	{
-		"OnDeath" "campbusy,Activate,,0,-1"
+		"OnDeath" "actbusy,Activate,,0,-1"
 	}
 	"origin" "-1188.77 -1820.93 129"
 	editor
@@ -11190,9 +11149,9 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "395528"
+	"spawnflags" "1442056"
 	"squadname" "camp1"
-	"targetname" "tempciti"
+	"targetname" "follower"
 	"wakeradius" "0"
 	"wakesquad" "0"
 	"origin" "-192.735 -1677.85 34"
@@ -11202,30 +11161,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "4012"
-	"classname" "npc_template_maker"
-	"angles" "0 0 0"
-	"CriterionDistance" "2"
-	"CriterionVisibility" "2"
-	"MaxLiveChildren" "1"
-	"MaxNPCCount" "3"
-	"MinSpawnDistance" "0"
-	"Radius" "256"
-	"spawnflags" "0"
-	"SpawnFrequency" "-1"
-	"StartDisabled" "1"
-	"TemplateName" "tempciti"
-	"origin" "-107.751 -1665.58 34"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -12369,8 +12304,8 @@ entity
 	"angles" "0 0 0"
 	"hintactivity" "idle_relaxed_01"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "10"
@@ -12417,8 +12352,8 @@ entity
 	"angles" "0 0 0"
 	"hintactivity" "idle_relaxed_02"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "13"
@@ -12441,8 +12376,8 @@ entity
 	"angles" "0 0 0"
 	"hintactivity" "idle_relaxed_01"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "14"
@@ -12465,8 +12400,8 @@ entity
 	"angles" "0 0 0"
 	"hintactivity" "idle_relaxed_01"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "15"
@@ -12489,8 +12424,8 @@ entity
 	"angles" "0 0 0"
 	"hintactivity" "idle_relaxed_02"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "16"
@@ -12511,10 +12446,10 @@ entity
 	"id" "5531"
 	"classname" "info_node_hint"
 	"angles" "0 0 0"
-	"hintactivity" "d1_t02_Playground_Cit2_Pockets"
+	"hintactivity" "idle_alert_01"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "17"
@@ -12535,10 +12470,10 @@ entity
 	"id" "5535"
 	"classname" "info_node_hint"
 	"angles" "0 0 0"
-	"hintactivity" "d1_t02_Playground_Cit1_Arms_Crossed"
+	"hintactivity" "d2_coast03_PreBattle_Kneel_Idle"
 	"hinttype" "12"
-	"IgnoreFacing" "2"
-	"MaximumState" "2"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
 	"MinimumState" "1"
 	"nodeFOV" "180"
 	"nodeid" "18"
@@ -12655,30 +12590,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "5627"
-	"classname" "ai_goal_actbusy"
-	"actor" "campcitizen"
-	"allowteleport" "0"
-	"busysearchrange" "2048"
-	"SearchType" "0"
-	"seeentitytimeout" "1"
-	"sightmethod" "0"
-	"spawnflags" "0"
-	"StartActive" "0"
-	"targetname" "campbusy"
-	"type" "0"
-	"visibleonly" "0"
-	"origin" "248 -1703.64 116.462"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
 	}
 }
 entity
@@ -13090,6 +13001,215 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "6299"
+	"classname" "ai_goal_actbusy"
+	"actor" "campcitizen"
+	"busysearchrange" "8000"
+	"seeentitytimeout" "1"
+	"StartActive" "1"
+	"targetname" "actbusy"
+	"visibleonly" "0"
+	"origin" "248 -1666.88 119.4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "6419"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hintactivity" "idle_relaxed_02"
+	"hinttype" "12"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "180"
+	"nodeid" "21"
+	"spawnflags" "0"
+	"StartHintDisabled" "0"
+	"TargetNode" "-1"
+	"origin" "-206.728 -1566.72 33"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "6421"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hintactivity" "idle_relaxed_02"
+	"hinttype" "12"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "180"
+	"nodeid" "22"
+	"spawnflags" "0"
+	"StartHintDisabled" "0"
+	"TargetNode" "-1"
+	"origin" "-240.362 -1646.04 33"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "6423"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hintactivity" "idle_relaxed_02"
+	"hinttype" "12"
+	"IgnoreFacing" "1"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "180"
+	"nodeid" "23"
+	"spawnflags" "0"
+	"StartHintDisabled" "0"
+	"TargetNode" "-1"
+	"origin" "-154.509 -1715.67 33"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "6429"
+	"classname" "ai_goal_follow"
+	"actor" "follower"
+	"Formation" "0"
+	"MaximumState" "3"
+	"SearchType" "0"
+	"StartActive" "0"
+	"origin" "240 -1700.78 115.891"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "6473"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hinttype" "900"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "180"
+	"nodeid" "25"
+	"spawnflags" "65536"
+	"StartHintDisabled" "0"
+	"TargetNode" "-1"
+	"origin" "-975.816 -1739.39 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "6479"
+	"classname" "info_node_hint"
+	"angles" "0 0 0"
+	"hinttype" "900"
+	"IgnoreFacing" "2"
+	"MaximumState" "3"
+	"MinimumState" "1"
+	"nodeFOV" "180"
+	"nodeid" "26"
+	"spawnflags" "65536"
+	"StartHintDisabled" "0"
+	"TargetNode" "-1"
+	"origin" "-1035.94 -1740.04 128"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "6505"
+	"classname" "env_soundscape"
+	"radius" "75"
+	"soundscape" "c17_02_inside_apartments_1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"origin" "-163.567 -854.699 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6532"
+	"classname" "item_ammo_smg1_grenade"
+	"angles" "0 30 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-168.958 -882.074 46.8742"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "6538"
+	"classname" "weapon_smg1"
+	"angles" "0 0 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-188.707 -885.976 40.4711"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
 	}
 }
 cameras
