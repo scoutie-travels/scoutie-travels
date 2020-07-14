@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "203"
+	"mapversion" "206"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "203"
+	"mapversion" "206"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1445,9 +1445,9 @@ world
 		{
 			"id" "299"
 			"plane" "(-448 -1248 256) (512 -1248 256) (512 -1248 448)"
-			"material" "TOOLS/TOOLSSKYBOX"
+			"material" "NATURE/SNOWWALL002A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2388,7 +2388,7 @@ world
 		side
 		{
 			"id" "481"
-			"plane" "(-576 -1248 33) (-448 -1248 33) (-448 -1408 33)"
+			"plane" "(-576 -1408 32) (-576 -1248 32) (-448 -1248 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2399,7 +2399,7 @@ world
 		side
 		{
 			"id" "482"
-			"plane" "(-576 -1408 32) (-448 -1408 32) (-448 -1248 32)"
+			"plane" "(-576 -1248 31) (-576 -1408 31) (-448 -1408 31)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2410,10 +2410,10 @@ world
 		side
 		{
 			"id" "483"
-			"plane" "(-576 -1248 33) (-576 -1408 33) (-576 -1408 32)"
+			"plane" "(-576 -1408 31) (-576 -1248 31) (-576 -1248 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2421,10 +2421,10 @@ world
 		side
 		{
 			"id" "484"
-			"plane" "(-448 -1248 32) (-448 -1408 32) (-448 -1408 33)"
+			"plane" "(-448 -1248 31) (-448 -1408 31) (-448 -1408 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2432,10 +2432,10 @@ world
 		side
 		{
 			"id" "485"
-			"plane" "(-448 -1248 33) (-576 -1248 33) (-576 -1248 32)"
+			"plane" "(-576 -1248 31) (-448 -1248 31) (-448 -1248 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2443,10 +2443,10 @@ world
 		side
 		{
 			"id" "486"
-			"plane" "(-448 -1408 32) (-576 -1408 32) (-576 -1408 33)"
+			"plane" "(-448 -1408 31) (-576 -1408 31) (-576 -1408 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2616,7 +2616,7 @@ world
 		side
 		{
 			"id" "505"
-			"plane" "(-448 -1280 33) (288 -1280 33) (288 -1408 33)"
+			"plane" "(-448 -1408 32) (-448 -1280 32) (288 -1280 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2627,7 +2627,7 @@ world
 		side
 		{
 			"id" "506"
-			"plane" "(-448 -1408 32) (288 -1408 32) (288 -1280 32)"
+			"plane" "(-448 -1280 31) (-448 -1408 31) (288 -1408 31)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2638,10 +2638,10 @@ world
 		side
 		{
 			"id" "507"
-			"plane" "(-448 -1280 33) (-448 -1408 33) (-448 -1408 32)"
+			"plane" "(-448 -1408 31) (-448 -1280 31) (-448 -1280 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2649,10 +2649,10 @@ world
 		side
 		{
 			"id" "508"
-			"plane" "(288 -1280 32) (288 -1408 32) (288 -1408 33)"
+			"plane" "(288 -1280 31) (288 -1408 31) (288 -1408 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2660,10 +2660,10 @@ world
 		side
 		{
 			"id" "509"
-			"plane" "(288 -1280 33) (-448 -1280 33) (-448 -1280 32)"
+			"plane" "(-448 -1280 31) (288 -1280 31) (288 -1280 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2671,10 +2671,10 @@ world
 		side
 		{
 			"id" "510"
-			"plane" "(288 -1408 32) (-448 -1408 32) (-448 -1408 33)"
+			"plane" "(288 -1408 31) (-448 -1408 31) (-448 -1408 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3376,7 +3376,7 @@ world
 		side
 		{
 			"id" "702"
-			"plane" "(-576 -1088 32) (256 -1088 32) (256 -1248 32)"
+			"plane" "(-576 -1248 32) (-576 -1088 32) (256 -1088 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3387,7 +3387,7 @@ world
 		side
 		{
 			"id" "701"
-			"plane" "(-576 -1248 -32) (256 -1248 -32) (256 -1088 -32)"
+			"plane" "(-576 -1088 -32) (-576 -1248 -32) (256 -1248 -32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3398,7 +3398,7 @@ world
 		side
 		{
 			"id" "700"
-			"plane" "(-576 -1088 32) (-576 -1248 32) (-576 -1248 -32)"
+			"plane" "(-576 -1248 -32) (-576 -1088 -32) (-576 -1088 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3420,7 +3420,7 @@ world
 		side
 		{
 			"id" "698"
-			"plane" "(256 -1088 32) (-576 -1088 32) (-576 -1088 -32)"
+			"plane" "(-576 -1088 -32) (256 -1088 -32) (256 -1088 32)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4288,9 +4288,9 @@ world
 		side
 		{
 			"id" "930"
-			"plane" "(-128 -1280 32.5) (0 -1280 97) (0 -1408 97)"
+			"plane" "(-128 -1408 31.5) (-128 -1280 31.5) (0 -1280 96)"
 			"material" "NATURE/SNOWFLOOR003A"
-			"uaxis" "[0.893027 0 0.450002 0] 0.25"
+			"uaxis" "[0.893027 0 0.450002 1.80001] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4299,9 +4299,9 @@ world
 		side
 		{
 			"id" "929"
-			"plane" "(-128 -1408 -32.5) (0 -1408 32) (0 -1280 32)"
+			"plane" "(-128 -1280 -33.5) (-128 -1408 -33.5) (0 -1408 31)"
 			"material" "BRICK/BRICKFLOOR001A"
-			"uaxis" "[0.893027 0 0.450002 0] 0.25"
+			"uaxis" "[0.893027 0 0.450002 1.80001] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4310,10 +4310,10 @@ world
 		side
 		{
 			"id" "928"
-			"plane" "(-128 -1280 32.5) (-128 -1408 32.5) (-128 -1408 -32.5)"
+			"plane" "(-128 -1408 -33.5019) (-128 -1280 -33.5019) (-128 -1280 31.5019)"
 			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 252] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4321,10 +4321,10 @@ world
 		side
 		{
 			"id" "927"
-			"plane" "(0 -1280 32) (0 -1408 32) (0 -1408 97)"
+			"plane" "(0 -1280 31) (0 -1408 31) (0 -1408 96)"
 			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 252] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4332,10 +4332,10 @@ world
 		side
 		{
 			"id" "926"
-			"plane" "(0 -1280 97) (-128 -1280 32.5) (-128 -1280 -32.5)"
+			"plane" "(-128 -1280 -33.502) (0 -1280 31) (0 -1280 96)"
 			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 252] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4343,10 +4343,10 @@ world
 		side
 		{
 			"id" "925"
-			"plane" "(0 -1408 32) (-128 -1408 -32.5) (-128 -1408 32.5)"
+			"plane" "(0 -1408 31) (-128 -1408 -33.5039) (-128 -1408 31.5)"
 			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 252] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4364,7 +4364,7 @@ world
 		side
 		{
 			"id" "931"
-			"plane" "(0 -1280 97.25) (256 -1280 97.25) (256 -1440 97.25)"
+			"plane" "(0 -1440 96) (0 -1280 96) (256 -1280 96)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4375,7 +4375,7 @@ world
 		side
 		{
 			"id" "932"
-			"plane" "(0 -1440 -32.75) (256 -1440 -32.75) (256 -1280 -32.75)"
+			"plane" "(0 -1280 -34) (0 -1440 -34) (256 -1440 -34)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -4386,10 +4386,10 @@ world
 		side
 		{
 			"id" "933"
-			"plane" "(0 -1280 97.25) (0 -1440 97.25) (0 -1440 -32.75)"
+			"plane" "(0 -1440 -34) (0 -1280 -34) (0 -1280 96)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -5] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4397,10 +4397,10 @@ world
 		side
 		{
 			"id" "934"
-			"plane" "(256 -1280 -32.75) (256 -1440 -32.75) (256 -1440 97.25)"
+			"plane" "(256 -1280 -34) (256 -1440 -34) (256 -1440 96)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -5] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4408,10 +4408,10 @@ world
 		side
 		{
 			"id" "935"
-			"plane" "(256 -1280 97.25) (0 -1280 97.25) (0 -1280 -32.75)"
+			"plane" "(0 -1280 -34) (256 -1280 -34) (256 -1280 96)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -5] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4419,10 +4419,10 @@ world
 		side
 		{
 			"id" "936"
-			"plane" "(256 -1440 -32.75) (0 -1440 -32.75) (0 -1440 97.25)"
+			"plane" "(256 -1440 -34) (0 -1440 -34) (0 -1440 96)"
 			"material" "NATURE/SNOWFLOOR003A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -5] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
