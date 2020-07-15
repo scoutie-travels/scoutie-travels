@@ -48,22 +48,28 @@
 	}
 	"16"
 	{
-		"label" "Multiplayer Commands"
+		"label" "Dev Commands"
 		"command" ""
 	}
 	"17"
 	{
-		"label" "Server Browser (DEV)"
+		"label" "Server Browser"
 		"command" "OpenServerBrowser"
 	}
     "18"
 	{
-		"label" "Create Local Listen Server (DEV)"
+		"label" "Create Local Listen Server"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	"19"
 	{
-		"label" "Show Player List (DEV)"
-		"command" "OpenPlayerListDialog"
+		"label" "Enter Dev Map"
+		"command" "engine map testingrange"
+	}
+	"20"
+	{
+		"label" "Restart Map"
+		"command" "engine restart"
+		"OnlyInGame" "1"
 	}
 }
